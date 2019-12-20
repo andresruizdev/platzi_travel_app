@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:platzi_trips_app/review.dart';
 
 import 'button_purple.dart';
 

@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:platzi_trips_app/profile_card_image.dart';
 import 'package:platzi_trips_app/profile_title_settings.dart';
 
 class ProfileGradientBack extends StatelessWidget {
   final profileInfo = Row(
     children: <Widget>[
       Container(
-        margin: EdgeInsets.only(top: 20.0, left: 20.0),
+        margin: EdgeInsets.only(top: 20.0, left: 20.0,),
         width: 80.0,
         height: 80.0,
         decoration: BoxDecoration(
@@ -107,7 +108,8 @@ class ProfileGradientBack extends StatelessWidget {
     );
 
     return Container(
-      height: 450.0,
+      padding: EdgeInsets.only(bottom: 100),
+      height: 500.0,
       decoration: BoxDecoration(
         gradient: LinearGradient(
             colors: [
